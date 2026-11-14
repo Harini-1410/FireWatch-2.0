@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.egg-info/
+
+# NASA datasets and generated data artifacts stay outside Git.
+data/
+
+# Build, runtime, and temporary artifacts.
+dist/
+build/
+*.log
+*.tmp

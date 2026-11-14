@@ -1,0 +1,16 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.env
+*.egg-info
+
+# Keep datasets outside the image; mount them at runtime.
+data
+scripts
+tests
+README.md
+DEPLOYMENT.md
+deployment_audit_report.md
